@@ -25870,6 +25870,10 @@ a.social-icon.si-colored {
   font-weight: 300;
   line-height: 35px !important; }
 
+#phone-slug-2 {
+  position: relative !important;
+  padding: 50px 0; }
+
 /** Contact Modal **/
 .form-error {
   color: #D56724;
@@ -25963,7 +25967,7 @@ h4.modal-title {
           padding-bottom: 75px; } }
     #specials .three-blocks .specials-bottom {
       background: #FFF;
-      height: 300px; }
+      height: 320px; }
       @media (max-width: 500px) {
         #specials .three-blocks .specials-bottom {
           height: 350px; } }
@@ -26230,41 +26234,41 @@ h4.modal-title {
     line-height: 35px;
     margin-bottom: 40px; }
 
-#phone-slug-1 {
+#phone-slug-1, #phone-slug-2 {
   position: absolute;
   bottom: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.5); }
-  #phone-slug-1 .button {
+  #phone-slug-1 .button, #phone-slug-2 .button {
     width: 17em;
     height: 60px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center; }
-  #phone-slug-1 h6 {
+  #phone-slug-1 h6, #phone-slug-2 h6 {
     font-weight: 700;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     color: #444444;
     margin-bottom: 10px;
     text-transform: uppercase; }
-  #phone-slug-1 .new-hotline a {
+  #phone-slug-1 .new-hotline a, #phone-slug-2 .new-hotline a {
     font-size: 42px;
     font-family: 'Montserrat', sans-serif;
     color: #444444; }
-  #phone-slug-1 .old-hotline {
+  #phone-slug-1 .old-hotline, #phone-slug-2 .old-hotline {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #444; }
-    #phone-slug-1 .old-hotline a {
+    #phone-slug-1 .old-hotline a, #phone-slug-2 .old-hotline a {
       color: #444444;
       font-weight: 700;
       font-family: 'Montserrat', sans-serif;
       font-size: 20px; }
-  #phone-slug-1 .col-sm-6.tleft {
+  #phone-slug-1 .col-sm-6.tleft, #phone-slug-2 .col-sm-6.tleft {
     border-left: 2px solid #764A1D; }
-  #phone-slug-1 a:hover {
+  #phone-slug-1 a:hover, #phone-slug-2 a:hover {
     text-decoration: none; }
 
 #meet-the-doctor {
@@ -26363,7 +26367,8 @@ p {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   justify-content: center;
-  font-weight: 300; }
+  font-weight: 300;
+  box-shadow: none; }
 
 .btn-wrap {
   display: flex;
