@@ -13,6 +13,7 @@
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
 @import "dependencies/slides.scss";
+@import "dependencies/meet-the-doctor.scss";
 
 
 // End Canvas Dependencies //
@@ -86,4 +87,8 @@ p {
 }
 .content-wrap {
   padding:0;
+}
+
+section {
+  padding:60px 0;
 }

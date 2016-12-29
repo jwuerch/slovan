@@ -26268,6 +26268,35 @@ h4.modal-title {
   #phone-slug-1 a:hover {
     text-decoration: none; }
 
+#meet-the-doctor {
+  padding: 80px 0 0 0; }
+  #meet-the-doctor h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    color: #4D4D4D;
+    margin-bottom: 0; }
+  #meet-the-doctor h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #A2AF70; }
+  #meet-the-doctor p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #7B7B7B;
+    letter-spacing: 0;
+    line-height: 25px; }
+  @media (max-width: 991px) {
+    #meet-the-doctor img {
+      margin-bottom: 25px; } }
+  #meet-the-doctor #oc-portfolio {
+    margin-top: 20px; }
+    #meet-the-doctor #oc-portfolio div.owl-nav {
+      display: none; }
+  #meet-the-doctor .margin-top-img {
+    margin-top: -20px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
@@ -26318,3 +26347,6 @@ p {
 
 .content-wrap {
   padding: 0; }
+
+section {
+  padding: 60px 0; }

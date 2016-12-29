@@ -1,0 +1,39 @@
+#meet-the-doctor{
+  padding:80px 0 0 0;
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    font-size: 34px;
+    color: #4D4D4D;
+    margin-bottom:0;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight:700;
+    color: #A2AF70;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #7B7B7B;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  img {
+    @media (max-width:991px) {
+      margin-bottom:25px;
+    }
+  }
+
+  #oc-portfolio {
+    margin-top:20px;
+    div.owl-nav {
+      display:none;
+    }
+  }
+  .margin-top-img {
+    margin-top:-20px;
+  }
+
+}
