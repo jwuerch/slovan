@@ -12,6 +12,7 @@
 @import "dependencies/contact-modal.scss";
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
 
 
 // End Canvas Dependencies //
@@ -60,11 +61,28 @@ p {
 }
 
 .button {
-  background:$button-color;
-  padding-top:2px;
+  background:#F88201;
+  width:auto;
+  height:55px;
+  display:flex;
+  align-self:center;
+  align-items:center;
+  padding:2px 1.25em 0 1.25em;
+  color:#FFF;
+  border-radius:5px;
+  text-transform:uppercase;
+  border:2px solid #FEF6CA;
+  font-size:18px;
+  font-family:'Montserrat', sans-serif;
+  justify-content:center;
+  font-weight:300;
+}
+.btn-wrap {
+  display:flex;
+  justify-content:center;
 }
 .button:hover {
-  background:$button-hover
+  background:#CF6D01;
 }
 .content-wrap {
   padding:0;
