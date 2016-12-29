@@ -35,5 +35,40 @@
   .margin-top-img {
     margin-top:-20px;
   }
+  .family-care {
+    padding-bottom:50px;
+    h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight:300;
+      font-size: 60px;
+      color: #7569AC;
+      line-height:50px;
+    }
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 60px;
+      color: #A2B070;
+      margin-top:-30px;
+      margin-bottom:20px;
+
+    }
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      color: #717171;
+      line-height: 26px;
+    }
+    .second-col {
+      text-align:center;
+      h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #A2AF70;
+        font-weight:700;
+        text-transform:uppercase;
+        margin:0 auto;
+      }
+    }
+  }
 
 }
