@@ -39,6 +39,10 @@ $phone-color: #FFF;
 }
 .phone-slug  .col-sm-6.tleft {
   border-left:1px solid #FFF;
+  @media (max-width:767px) {
+    border-left:none !important;
+    text-align:center !important;
+  }
 }
 .phone-slug .button {
   margin:2.5px 0;
@@ -69,7 +73,18 @@ $phone-color: #FFF;
   line-height:35px !important;
 }
 
-#phone-slug-2 {
+#phone-slug-2, .phone-slug {
   position:relative !important;
   padding:50px 0;
+  .new-hotline a {
+    @media (max-width:500px) {
+      font-size:32px !important;
+    }
+  }
+}
+
+#phone-slug-1-mobile .button {
+  @media (max-width:767px) {
+    margin:0 auto;
+  }
 }

@@ -137,7 +137,7 @@
 }
 
 
-#phone-slug-1, #phone-slug-2 {
+#phone-slug-1, #phone-slug-2, #phone-slug-1-mobile {
   position:absolute;
   bottom:0;
   width:100%;
@@ -157,6 +157,9 @@
     color:#444444;
     margin-bottom:10px;
     text-transform:uppercase;
+    @media (max-width:767px) {
+      font-weight:400;
+    }
   }
   .new-hotline a {
     font-size:42px;
