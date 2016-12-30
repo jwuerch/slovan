@@ -116,7 +116,7 @@ $click-map-color:#846A20;
     margin-bottom:20px;
   }
   img {
-    height:30px;
+    height:100px;
   }
   .click-map {
     font-family: 'Lato', sans-serif;
@@ -224,9 +224,9 @@ $click-map-color:#846A20;
 
 
 #contact {
-  max-height:580px;
+  max-height:650px;
   @media (max-width:767px) {
-    max-height:600px;
+    max-height:670px;
   }
 }
 #contact > div > div {

@@ -3,6 +3,11 @@
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
   text-transform:uppercase;
+  @media (max-width:1070px) {
+    font-size:14px;
+    padding-left:8px;
+    padding-right:8px;
+  }
 }
 .navbar > li:nth-child(1) > a {
   font-weight:700;
@@ -20,4 +25,19 @@
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top:39px;
   padding-bottom:39px;
+}
+
+#logo img {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+#logo {
+  margin-right:0 !important;
+  padding-right:0 !important;
+}
+body.stretched #header.full-header .container {
+  @media (min-width:991px) {
+    padding-right:0;
+
+  }
 }

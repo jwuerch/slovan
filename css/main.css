@@ -25753,6 +25753,11 @@ Copyright (c) 2014 Daniel Eden
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
+  @media (max-width: 1070px) {
+    .navbar li > a {
+      font-size: 14px;
+      padding-left: 8px;
+      padding-right: 8px; } }
 
 .navbar > li:nth-child(1) > a {
   font-weight: 700;
@@ -25768,6 +25773,18 @@ Copyright (c) 2014 Daniel Eden
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 39px;
   padding-bottom: 39px; }
+
+#logo img {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+#logo {
+  margin-right: 0 !important;
+  padding-right: 0 !important; }
+
+@media (min-width: 991px) {
+  body.stretched #header.full-header .container {
+    padding-right: 0; } }
 
 #copyrights {
   background: grey; }
@@ -26180,7 +26197,7 @@ h4.modal-title {
   margin-bottom: 20px; }
 
 #contact img {
-  height: 30px; }
+  height: 100px; }
 
 #contact .click-map {
   font-family: 'Lato', sans-serif;
@@ -26271,10 +26288,10 @@ h4.modal-title {
       padding-right: 0; } }
 
 #contact {
-  max-height: 580px; }
+  max-height: 650px; }
   @media (max-width: 767px) {
     #contact {
-      max-height: 600px; } }
+      max-height: 670px; } }
 
 @media (max-width: 767px) {
   #contact > div > div {
