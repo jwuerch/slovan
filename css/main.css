@@ -25777,6 +25777,10 @@ Copyright (c) 2014 Daniel Eden
 #logo img {
   padding-top: 15px;
   padding-bottom: 15px; }
+  @media (max-width: 600px) {
+    #logo img {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
 
 #logo {
   margin-right: 0 !important;
@@ -26262,7 +26266,8 @@ h4.modal-title {
 
 .day {
   float: left;
-  width: 50%; }
+  width: 50%;
+  display: flex; }
 
 .map-below-contact-section {
   padding-bottom: 0;
@@ -26300,6 +26305,10 @@ h4.modal-title {
 
 #primary-menu-trigger {
   font-size: 25px; }
+
+#contact-form-overlay-mini > div:nth-child(2) > p:nth-child(13) > span.hour {
+  float: left;
+  margin-left: 15px; }
 
 #slide-1 .slider-caption, #slide-2 .slider-caption {
   margin-top: -50px; }
@@ -26457,7 +26466,7 @@ h4.modal-title {
   padding-top: 0; }
 
 #meet-the-doctor {
-  padding: 80px 0 0 0; }
+  padding: 80px 0 60px 0; }
   @media (max-width: 767px) {
     #meet-the-doctor {
       padding-top: 0; } }
@@ -26500,6 +26509,7 @@ h4.modal-title {
   #meet-the-doctor .margin-top-img {
     margin-top: -20px; }
   #meet-the-doctor .family-care {
+    padding-top: 30px;
     padding-bottom: 50px; }
     #meet-the-doctor .family-care h4 {
       font-family: 'Montserrat', sans-serif;
@@ -26540,7 +26550,8 @@ h4.modal-title {
         color: #A2AF70;
         font-weight: 700;
         text-transform: uppercase;
-        margin: 0 auto; }
+        margin: 0 auto;
+        margin-top: 20px; }
 
 #patient-reviews {
   background: url("../images/reviews-bg.jpg");
@@ -26680,49 +26691,47 @@ h4.modal-title {
 #services-carousel {
   background-image: linear-gradient(0deg, #C6C0A2 0%, #FFFFFF 100%); }
 
-#services-carousel img {
-  margin-bottom: 20px; }
-
-#services-carousel h6 {
-  font-family: 'Montserrate', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #A2AF70;
-  letter-spacing: 0; }
-
-#services-carousel .owl-prev, #services-carousel .owl-next {
-  opacity: 1 !important;
-  background: #A2AF70;
-  border-radius: 0;
-  color: #FFF;
-  width: 50px;
-  height: 50px;
-  font-size: 30px;
-  top: 40%; }
-  #services-carousel .owl-prev:hover, #services-carousel .owl-next:hover {
-    background: #97A368 !important; }
-  @media (max-width: 767px) {
-    #services-carousel .owl-prev, #services-carousel .owl-next {
-      width: 40px;
-      height: 40px;
-      font-size: 25px;
-      top: 35%; } }
-  @media (max-width: 400px) {
-    #services-carousel .owl-prev, #services-carousel .owl-next {
-      top: 42%; } }
-  #services-carousel .owl-prev i, #services-carousel .owl-next i {
-    top: 7px;
-    position: relative; }
+#services-carousel {
+  border-bottom: 5px solid #FFF; }
+  #services-carousel img {
+    margin-bottom: 20px; }
+  #services-carousel h6 {
+    font-family: 'Montserrate', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #A2AF70;
+    letter-spacing: 0; }
+  #services-carousel .owl-prev, #services-carousel .owl-next {
+    opacity: 1 !important;
+    background: #A2AF70;
+    border-radius: 0;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    top: 40%; }
+    #services-carousel .owl-prev:hover, #services-carousel .owl-next:hover {
+      background: #97A368 !important; }
     @media (max-width: 767px) {
-      #services-carousel .owl-prev i, #services-carousel .owl-next i {
-        top: 3px; } }
-
-#services-carousel .owl-prev {
-  left: -18px; }
-
-#services-carousel .owl-next {
-  right: -18px; }
+      #services-carousel .owl-prev, #services-carousel .owl-next {
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        top: 35%; } }
+    @media (max-width: 400px) {
+      #services-carousel .owl-prev, #services-carousel .owl-next {
+        top: 42%; } }
+    #services-carousel .owl-prev i, #services-carousel .owl-next i {
+      top: 7px;
+      position: relative; }
+      @media (max-width: 767px) {
+        #services-carousel .owl-prev i, #services-carousel .owl-next i {
+          top: 3px; } }
+  #services-carousel .owl-prev {
+    left: -18px; }
+  #services-carousel .owl-next {
+    right: -18px; }
 
 .service-modal .modal-dialog {
   background: #FFF; }

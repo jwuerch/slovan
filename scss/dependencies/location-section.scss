@@ -192,6 +192,7 @@ $click-map-color:#846A20;
 .day {
   float:left;
   width:50%;
+  display:flex;
 }
 
 .map-below-contact-section {
@@ -238,4 +239,9 @@ $click-map-color:#846A20;
 
 #primary-menu-trigger {
   font-size:25px;
+}
+
+#contact-form-overlay-mini > div:nth-child(2) > p:nth-child(13) > span.hour {
+  float:left;
+  margin-left:15px;
 }
