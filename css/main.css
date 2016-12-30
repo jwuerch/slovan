@@ -26328,6 +26328,19 @@ h4.modal-title {
         text-transform: uppercase;
         margin: 0 auto; }
 
+#patient-reviews {
+  background: url("../images/reviews-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100% 100%; }
+  #patient-reviews h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #898C7D;
+    letter-spacing: 0.6px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
