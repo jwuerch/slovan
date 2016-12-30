@@ -48,3 +48,13 @@ a.social-icon.si-colored {
   justify-content:center;
   position:relative;
 }
+#copyrights {
+  background:#A2AF70;
+}
+#copyrights > div > div:nth-child(1) {
+  font-family:'Lato', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 25px;
+}

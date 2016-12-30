@@ -81,5 +81,161 @@ $click-map-color:#846A20;
 }
 #google-map {
   height:100%;
-  border-bottom:5px solid #FFF;
+  border-bottom:0px solid #FFF;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+#contact-form-overlay-mini {
+  float:left;
+  border-radius:0;
+  box-shadow:none;
+  background:rgba(255,255,255, .9);
+}
+.vertical-middle {
+  top:0 !important;
+  margin-top:auto !important;
+  padding-left:0;
+}
+#contact > div > div {
+  margin-left: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+#contact {
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    color: #222222;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom:0;
+  }
+  .p-2 {
+    margin-bottom:20px;
+  }
+  img {
+    height:30px;
+  }
+  .click-map {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #FA9322 !important;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  .p-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #3B5170;
+    margin-top:20px;
+    margin-bottom:5px;
+  }
+  .new-hotline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #575757;
+    font-weight:700;
+    @media (max-width:500px) {
+      font-size:30px;
+    }
+  }
+  .p-4 {
+    /* Existing patients: (: */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #3B5170;
+    margin-top:10px;
+    margin-bottom:30px;
+    a {
+      font-weight:bold;
+      color:#3B5170;
+      &:hover {
+        text-decoration:none;
+      }
+    }
+    .button {
+      margin-top:20px;
+    }
+    .p-5 {
+      font-family: 'Lato', sans-serif;
+      font-weight:700;
+      text-transform:uppercase;
+      font-size: 21px;
+      color: #575757;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+    .hour {
+      float:right;
+    }
+  }
+
+}
+
+
+.p-5 {
+  font-family: 'Lato', sans-serif;
+  font-weight:700;
+  text-transform:uppercase;
+  font-size: 21px;
+  color: #575757;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-bottom:10px !important;
+}
+
+.hour {
+  float:right;
+}
+.day {
+  float:left;
+  width:50%;
+}
+
+.map-below-contact-section {
+  padding-bottom:0;
+  padding-top:0;
+
+}
+
+#contact {
+  max-height:650px;
+}
+#contact > div > div {
+  margin:0 auto;
+}
+.vertical-middle {
+  @media(max-width:767px) {
+    padding-top:10px !important;
+    padding-bottom:50px !important;
+  }
+}
+
+#contact > div > div {
+  margin-left:0;
+  @media (max-width:767px) {
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-right:0;
+  }
+}
+
+
+#contact {
+  max-height:580px;
+  @media (max-width:767px) {
+    max-height:600px;
+  }
+}
+#contact > div > div {
+  @media (max-width:767px) {
+    display:flex;
+    padding-bottom:50px;
+  }
+}
+
+#primary-menu-trigger {
+  font-size:25px;
 }

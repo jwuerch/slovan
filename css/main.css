@@ -25809,6 +25809,16 @@ a.social-icon.si-colored {
   justify-content: center;
   position: relative; }
 
+#copyrights {
+  background: #A2AF70; }
+
+#copyrights > div > div:nth-child(1) {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 25px; }
+
 /** PHONE SLUG **/
 .phone-slug {
   background: blue;
@@ -25884,6 +25894,12 @@ a.social-icon.si-colored {
 @media (max-width: 767px) {
   #phone-slug-1-mobile .button {
     margin: 0 auto; } }
+
+#phone-slug-1 {
+  position: absolute !important;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 0px; }
 
 /** Contact Modal **/
 .form-error {
@@ -26131,7 +26147,142 @@ h4.modal-title {
 
 #google-map {
   height: 100%;
-  border-bottom: 5px solid #FFF; }
+  border-bottom: 0px solid #FFF;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+#contact-form-overlay-mini {
+  float: left;
+  border-radius: 0;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.9); }
+
+.vertical-middle {
+  top: 0 !important;
+  margin-top: auto !important;
+  padding-left: 0; }
+
+#contact > div > div {
+  margin-left: 0;
+  padding-left: 0;
+  border-radius: 0; }
+
+#contact p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #222222;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-bottom: 0; }
+
+#contact .p-2 {
+  margin-bottom: 20px; }
+
+#contact img {
+  height: 30px; }
+
+#contact .click-map {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FA9322 !important;
+  letter-spacing: 0;
+  line-height: 25px; }
+
+#contact .p-3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: #3B5170;
+  margin-top: 20px;
+  margin-bottom: 5px; }
+
+#contact .new-hotline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: #575757;
+  font-weight: 700; }
+  @media (max-width: 500px) {
+    #contact .new-hotline {
+      font-size: 30px; } }
+
+#contact .p-4 {
+  /* Existing patients: (: */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: #3B5170;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+  #contact .p-4 a {
+    font-weight: bold;
+    color: #3B5170; }
+    #contact .p-4 a:hover {
+      text-decoration: none; }
+  #contact .p-4 .button {
+    margin-top: 20px; }
+  #contact .p-4 .p-5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #575757;
+    letter-spacing: 0;
+    line-height: 25px; }
+  #contact .p-4 .hour {
+    float: right; }
+
+.p-5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #575757;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-bottom: 10px !important; }
+
+.hour {
+  float: right; }
+
+.day {
+  float: left;
+  width: 50%; }
+
+.map-below-contact-section {
+  padding-bottom: 0;
+  padding-top: 0; }
+
+#contact {
+  max-height: 650px; }
+
+#contact > div > div {
+  margin: 0 auto; }
+
+@media (max-width: 767px) {
+  .vertical-middle {
+    padding-top: 10px !important;
+    padding-bottom: 50px !important; } }
+
+#contact > div > div {
+  margin-left: 0; }
+  @media (max-width: 767px) {
+    #contact > div > div {
+      margin: 0 auto;
+      padding-bottom: 20px;
+      padding-right: 0; } }
+
+#contact {
+  max-height: 580px; }
+  @media (max-width: 767px) {
+    #contact {
+      max-height: 600px; } }
+
+@media (max-width: 767px) {
+  #contact > div > div {
+    display: flex;
+    padding-bottom: 50px; } }
+
+#primary-menu-trigger {
+  font-size: 25px; }
 
 #slide-1 .slider-caption, #slide-2 .slider-caption {
   margin-top: -50px; }
@@ -26285,6 +26436,9 @@ h4.modal-title {
   #phone-slug-1 a:hover, #phone-slug-2 a:hover, #phone-slug-1-mobile a:hover {
     text-decoration: none; }
 
+#slider {
+  padding-top: 0; }
+
 #meet-the-doctor {
   padding: 80px 0 0 0; }
   @media (max-width: 767px) {
@@ -26383,80 +26537,86 @@ h4.modal-title {
     font-weight: 700;
     color: #898C7D;
     letter-spacing: 0.6px; }
+  @media (max-width: 600px) {
+    #patient-reviews iframe {
+      max-height: 450px; } }
 
 #services h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  color: #898D7D;
-  letter-spacing: 3.5px; }
+  line-height: 50px; }
 
-#services p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  color: #737270;
-  line-height: 24px; }
-
-#services .sedation-dentistry {
-  background: url("../images/services/sedation-bg.jpg");
-  background-size: cover;
-  background-position: 100% 100%;
-  height: 750px; }
-  @media (max-width: 1200px) {
-    #services .sedation-dentistry {
-      background-position-x: 50%; } }
-  #services .sedation-dentistry .button {
-    width: auto;
-    float: left;
-    margin-top: 50px;
-    margin-left: 0;
-    left: 0; }
-    @media (max-width: 500px) {
-      #services .sedation-dentistry .button {
-        margin-top: 30px; } }
-  @media (max-width: 991px) {
-    #services .sedation-dentistry {
-      background: #FFF;
-      height: auto; } }
-  #services .sedation-dentistry h4 {
+#services {
+  padding-bottom: 0; }
+  #services h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 68px;
-    color: #7569AC;
-    letter-spacing: 0.79px;
-    margin-bottom: -30px; }
-    @media (max-width: 500px) {
-      #services .sedation-dentistry h4 {
-        font-size: 32px;
-        margin-bottom: -5px; } }
-  #services .sedation-dentistry h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 68px;
-    color: #A2B070;
-    letter-spacing: 1.99px;
-    margin-bottom: 0; }
-    @media (max-width: 500px) {
-      #services .sedation-dentistry h3 {
-        font-size: 38px;
-        margin-bottom: 20px; } }
-  #services .sedation-dentistry .p-1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #898D7D;
+    letter-spacing: 3.5px; }
+  #services p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #717171;
-    line-height: 26px; }
-  #services .sedation-dentistry .p-2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #717171;
-    line-height: 26px; }
-  #services .sedation-dentistry li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: #717171;
-    line-height: 35px;
-    margin-left: 15px; }
+    color: #737270;
+    line-height: 24px; }
+  #services .sedation-dentistry {
+    background: url("../images/services/sedation-bg.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 750px; }
+    @media (max-width: 1200px) {
+      #services .sedation-dentistry {
+        background-position-x: 50%; } }
+    #services .sedation-dentistry .button {
+      width: auto;
+      float: left;
+      margin-top: 50px;
+      margin-left: 0;
+      left: 0; }
+      @media (max-width: 500px) {
+        #services .sedation-dentistry .button {
+          margin-top: 30px; } }
+    @media (max-width: 991px) {
+      #services .sedation-dentistry {
+        background: #FFF;
+        height: auto; } }
+    #services .sedation-dentistry h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 68px;
+      color: #7569AC;
+      letter-spacing: 0.79px;
+      margin-bottom: -30px; }
+      @media (max-width: 500px) {
+        #services .sedation-dentistry h4 {
+          font-size: 32px;
+          margin-bottom: -5px; } }
+    #services .sedation-dentistry h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 68px;
+      color: #A2B070;
+      letter-spacing: 1.99px;
+      margin-bottom: 0; }
+      @media (max-width: 500px) {
+        #services .sedation-dentistry h3 {
+          font-size: 38px;
+          margin-bottom: 20px; } }
+    #services .sedation-dentistry .p-1 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      color: #717171;
+      line-height: 26px; }
+    #services .sedation-dentistry .p-2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #717171;
+      line-height: 26px; }
+    #services .sedation-dentistry li {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      color: #717171;
+      line-height: 35px;
+      margin-left: 15px; }
 
 #services > div.sedation-dentistry.row > div {
   padding-left: 0;
@@ -26472,6 +26632,13 @@ h4.modal-title {
   font-weight: 300;
   letter-spacing: 1.83px;
   margin-bottom: -15px; }
+  @media (max-width: 991px) {
+    #services-2 h4 {
+      font-size: 30px; } }
+  @media (max-width: 600px) {
+    #services-2 h4 {
+      font-size: 26px;
+      margin-bottom: -10px; } }
 
 #services-2 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -26480,12 +26647,74 @@ h4.modal-title {
   color: #A2B070;
   letter-spacing: 2.19px;
   margin-bottom: 15px; }
+  @media (max-width: 991px) {
+    #services-2 h3 {
+      font-size: 36px; } }
+  @media (max-width: 600px) {
+    #services-2 h3 {
+      font-size: 32px; } }
 
 #services-2 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #717171;
   line-height: 26px; }
+
+#services-carousel {
+  background-image: linear-gradient(0deg, #C6C0A2 0%, #FFFFFF 100%); }
+
+#services-carousel img {
+  margin-bottom: 20px; }
+
+#services-carousel h6 {
+  font-family: 'Montserrate', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #A2AF70;
+  letter-spacing: 0; }
+
+#services-carousel .owl-prev, #services-carousel .owl-next {
+  opacity: 1 !important;
+  background: #A2AF70;
+  border-radius: 0;
+  color: #FFF;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  top: 40%; }
+  #services-carousel .owl-prev:hover, #services-carousel .owl-next:hover {
+    background: #97A368 !important; }
+  @media (max-width: 767px) {
+    #services-carousel .owl-prev, #services-carousel .owl-next {
+      width: 40px;
+      height: 40px;
+      font-size: 25px;
+      top: 35%; } }
+  @media (max-width: 400px) {
+    #services-carousel .owl-prev, #services-carousel .owl-next {
+      top: 42%; } }
+  #services-carousel .owl-prev i, #services-carousel .owl-next i {
+    top: 7px;
+    position: relative; }
+    @media (max-width: 767px) {
+      #services-carousel .owl-prev i, #services-carousel .owl-next i {
+        top: 3px; } }
+
+#services-carousel .owl-prev {
+  left: -18px; }
+
+#services-carousel .owl-next {
+  right: -18px; }
+
+.service-modal .modal-dialog {
+  background: #FFF; }
+
+.service-modal img {
+  margin-bottom: 20px; }
+
+.service-modal .img-wrap {
+  text-align: center; }
 
 body {
   font-family: "Lato", sans-serif; }
