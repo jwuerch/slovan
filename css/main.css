@@ -26462,6 +26462,31 @@ h4.modal-title {
   padding-left: 0;
   padding-right: 0; }
 
+#services-2 img {
+  margin-bottom: 20px; }
+
+#services-2 h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #7569AC;
+  font-weight: 300;
+  letter-spacing: 1.83px;
+  margin-bottom: -15px; }
+
+#services-2 h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #A2B070;
+  letter-spacing: 2.19px;
+  margin-bottom: 15px; }
+
+#services-2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #717171;
+  line-height: 26px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
