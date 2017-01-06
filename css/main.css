@@ -26410,7 +26410,7 @@ h4.modal-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700; }
   #slide-3 .slider-caption .icon-star3 {
-    color: #FFD900;
+    color: #ffaf00;
     font-size: 52px;
     text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     margin: 25px 0; }
@@ -26689,7 +26689,7 @@ h4.modal-title {
   line-height: 26px; }
 
 #services-carousel {
-  background-image: linear-gradient(0deg, #C6C0A2 0%, #FFFFFF 100%); }
+  background-image: linear-gradient(0deg, #e6e3d8 0%, #FFFFFF 100%); }
 
 #services-carousel {
   border-bottom: 5px solid #FFF; }
